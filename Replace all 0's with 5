@@ -1,0 +1,37 @@
+import java.util.*;
+public class main
+{
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+int onum=num;
+int i=0;
+int j=0;
+while(onum!=0)
+{
+   onum=onum/10;
+   i++;
+
+}
+int a[]=new int[i];
+onum=num;
+in temp=onum;
+whie(onum!=0)
+{
+    o[j]=onum%10;
+    onum=onum/10;
+    j++;
+}
+for(int k=0;k<a.length;k++)
+{
+if(a[k]==0)
+{
+    a[k]=5;
+}
+}
+int n=a.length;
+for(int k=0;k<a.length;k++)
+{ s=s+a[k]*(int)Math.pow(10,k);
+}
+System.out.println(s);
+
+}
